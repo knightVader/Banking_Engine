@@ -186,8 +186,8 @@ vector<node> Managers;  // Vector storing manager credentials
                                   │
                     ┌─────────────▼───────────────────┐
                     │         Branch Point            │
-                    └─────┬───────────────────┬───────┘
-                          │                   │
+                    └─────┬──────────────────┬───────-┘
+                          │                  │
           ┌───────────────▼──────────┐       │
           │     Manager Path         │       │
           │                          │       │
@@ -245,9 +245,9 @@ vector<node> Managers;  // Vector storing manager credentials
                               │               └───────────┘ │
                               └─────────────────────────────┘
 
-                    ┌─────────────────────────────────┐
-                    │        Data Flow Layer          │
-                    │                                 │
+                    ┌─────────────────────────────────-┐
+                    │        Data Flow Layer           │
+                    │                                  │
                     │  ┌─────────────────────────────┐ │
                     │  │    File Operations:         │ │
                     │  │                             │ │
@@ -258,7 +258,7 @@ vector<node> Managers;  // Vector storing manager credentials
                     │  │ Real-time synchronization   │ │
                     │  │ Persistent storage          │ │
                     │  └─────────────────────────────┘ │
-                    └─────────────────────────────────┘
+                    └─────────────────────────────────-┘
 ```
 
 ## File Structure
