@@ -1,4 +1,4 @@
-# SDLC Bank Engine - Complete Banking Management System
+# SDFC Bank Engine - Complete Banking Management System
 
 This is a comprehensive C++ banking management system that simulates real-world banking operations. The system supports multiple user types (Customers and Managers) with different interfaces and functionalities. It provides both ATM operations and branch banking services with complete data persistence and security features.
 
@@ -18,7 +18,7 @@ This is a comprehensive C++ banking management system that simulates real-world 
 
 ## Project Overview
 
-The SDLC Bank Engine is a multi-layered banking system that provides:
+The SDFC Bank Engine is a multi-layered banking system that provides:
 
 1. **Customer Interface**: Two modes of operation
    - **Bank Mode**: Account creation and money deposit services
@@ -174,7 +174,7 @@ vector<node> Managers;  // Vector storing manager credentials
 
 ```
                     ┌─────────────────────────────────┐
-                    │         SDLC Bank Engine        │
+                    │         SDFC Bank Engine        │
                     │         Welcome Screen          │
                     └─────────────┬───────────────────┘
                                   │
@@ -332,7 +332,7 @@ bank.exe
 #### `main()`
 - **Purpose**: Program entry point and main control flow
 - **Functionality**: 
-  - Displays welcome screen for SDLC Bank
+  - Displays welcome screen for SDFC Bank
   - Routes users to Manager or Customer interfaces
   - Manages the primary program loop
   - Handles user type selection and navigation
@@ -483,4 +483,4 @@ KLMNO23456P7     98247601
 
 ---
 
-*The SDLC Bank Engine is a comprehensive educational project demonstrating advanced C++ programming concepts including file I/O, data structures, object-oriented programming, and secure system design. It serves as an excellent example of modular programming and real-world application development.*
+*The SDFC Bank Engine is a comprehensive educational project demonstrating advanced C++ programming concepts including file I/O, data structures, object-oriented programming, and secure system design. It serves as an excellent example of modular programming and real-world application development.*
